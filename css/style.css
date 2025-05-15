@@ -4,10 +4,19 @@
     padding:0;
     box-sizing: border-box;
 }
-
+/*UTILITIES*/
 .debug{
      border: 1px dashed white;
 }
+
+.d-flex{
+    display: flex;
+}
+
+img{
+    max-width: 100%;
+}
+
 
 .wrapper{
     height: 100vh;
@@ -17,7 +26,6 @@
 .upgrade-bar{
     height: 50px;
     background:lightslategray;
-    width: calc(100% - 230px);
 }
 .upgrade-btn{
     border: 1px solid white;
@@ -26,6 +34,7 @@
 .top{
     height:calc(100% - 70px);
     background-color: teal;
+    display: flex;
     
 }
 .content-dx{
@@ -36,7 +45,76 @@
     height: 100vh;
     width: 230px;
     background: black;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo{
+    max-width: 60%;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    padding-top:10px;
+}
+
+a > img{
+    max-width:20%;
+}
+a{
+    text-decoration: none;
+    color: #b5b5b5;   
+}
+li{
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+li a{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+h3{
+    color: white;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+.fa-square-plus{
+    font-size:300%;
+}
+.add {
+    width: 145px;
+}
+.playlist-link{
+    margin:1rem 1.5rem;
+}
+.menu-bottom{
+    position: relative;
+    top:18rem;
+    right:0.5rem;
     
+    
+}
+.install{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #b5b5b5;
+    margin-left: 15px;
+}
+.install img{
+    max-width: 10%;
+    margin-right: 5px;
+}
+.user-profile{
+    color: white;
+    margin:1rem;
+}
+.user-profile img{
+    background: grey;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top:5px;
 }
 
 /**BOTTOM**/ 
