@@ -46,6 +46,15 @@ img{
     height:100%;
     background-color: green;
 }
+.menu-center{
+    justify-content: center;
+    list-style: none;
+    margin-top: 1rem;   
+}
+.menu-center li a:hover {
+  border-bottom: 1px solid greenyellow;    
+}
+
 /*#endregion MAIN*/
 
 
