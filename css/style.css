@@ -4,3 +4,30 @@
     padding:0;
     box-sizing: border-box;
 }
+
+.wrapper{
+    height: 100vh;
+}
+.top{
+    height: 100vh;
+    height:calc(100%-70px);
+    background-color: teal;
+    border: 1px dashed white;
+}
+.bottom{
+    height: 70px;
+    background: purple;
+    border: 1px dashed white;
+}
+.content-dx{
+    width: calc(100%-230px);
+    background-color: aqua;
+    border:1px dashed white;
+
+}
+.sidebar{
+    height: 100%;
+    width: 230px;
+    background: greenyellow;
+    border:1px dashed white;
+}
