@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+.debug{
+     border: 1px dashed white;
+}
+
 .wrapper{
     height: 100vh;
 }
@@ -12,22 +16,29 @@
     height: 100vh;
     height:calc(100%-70px);
     background-color: teal;
-    border: 1px dashed white;
+    
 }
 .bottom{
     height: 70px;
     background: purple;
-    border: 1px dashed white;
+    
 }
 .content-dx{
     width: calc(100%-230px);
-    background-color: aqua;
-    border:1px dashed white;
-
+    background-color: aqua; 
 }
 .sidebar{
     height: 100%;
     width: 230px;
     background: greenyellow;
-    border:1px dashed white;
+   
+}
+.upgrade-bar{
+    height: 50px;
+    background:lightslategray;
+    
+}
+.upgrade-btn{
+    border: 1px solid white;
+
 }
