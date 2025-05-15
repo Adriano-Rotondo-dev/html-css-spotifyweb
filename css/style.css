@@ -8,7 +8,9 @@
 .debug{
      border: 1px dashed white;
 }
-
+*{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
 .d-flex{
     display: flex;
 }
@@ -17,21 +19,22 @@ img{
     max-width: 100%;
 }
 
+
 .wrapper{
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
 .top{
-    height:calc(100% - 70px);
+    height:calc(100% - 90px);
     background-color: teal;
     display: flex;
     
 }
 /*#region MAIN*/
 .upgrade-bar{
-    height: 50px;
-    background:lightslategray;
+    height: 70px;
+    background-color:#080B12;
 }
 .upgrade-btn{
     border: 1px solid white;
@@ -44,7 +47,7 @@ img{
 .container-dx{
     width: 100%;
     height:100%;
-    background-color: green;
+    background-color:#141922;
 }
 .menu-center{
     justify-content: center;
@@ -52,7 +55,7 @@ img{
     margin-top: 1rem;   
 }
 .menu-center li a:hover {
-  border-bottom: 1px solid greenyellow;    
+  border-bottom: 1px solid #ADFF2F; 
 }
 
 /*#endregion MAIN*/
@@ -65,6 +68,7 @@ img{
     background: black;
     flex-direction: column;
     justify-content: space-between;
+    padding: 2px;
 }
 
 .logo{
@@ -106,7 +110,7 @@ h3{
 }
 .menu-bottom{
     position: relative;
-    top:18rem;
+    top:17rem;
     right:0.5rem;
     
     
@@ -140,7 +144,7 @@ h3{
 /**BOTTOM**/ 
 
 .bottom{
-    height: 70px;
+    height: 90px;
     background: purple;
     
 }
