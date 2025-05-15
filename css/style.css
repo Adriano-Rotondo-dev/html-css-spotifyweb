@@ -11,34 +11,38 @@
 
 .wrapper{
     height: 100vh;
-}
-.top{
-    height: 100vh;
-    height:calc(100%-70px);
-    background-color: teal;
-    
-}
-.bottom{
-    height: 70px;
-    background: purple;
-    
-}
-.content-dx{
-    width: calc(100%-230px);
-    background-color: aqua; 
-}
-.sidebar{
-    height: 100%;
-    width: 230px;
-    background: greenyellow;
-   
+    display: flex;
+    flex-direction: column;
 }
 .upgrade-bar{
     height: 50px;
     background:lightslategray;
-    
+    width: calc(100% - 230px);
 }
 .upgrade-btn{
     border: 1px solid white;
+    
+}
+.top{
+    height:calc(100% - 70px);
+    background-color: teal;
+    
+}
+.content-dx{
+    width: calc(100% - 230px);
+    background-color: aqua; 
+}
+.sidebar{
+    height: 100vh;
+    width: 230px;
+    background: greenyellow;
+    
+}
 
+/**BOTTOM**/ 
+
+.bottom{
+    height: 70px;
+    background: purple;
+    
 }
