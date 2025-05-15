@@ -33,11 +33,22 @@ img{
 }
 /*#region MAIN*/
 .upgrade-bar{
-    height: 70px;
+    height: 100px;
     background-color:#080B12;
+    position: sticky;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
 }
 .upgrade-btn{
-    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 2rem;
+    height: 3rem;
+    width: 15rem;    
+    position:relative;
+    top:1.5rem;
     
 }
 .content-dx{
@@ -46,8 +57,11 @@ img{
 }
 .container-dx{
     width: 100%;
-    height:100%;
+    height: calc(100% - 90px);
     background-color:#141922;
+    overflow: hidden;
+    overflow-y: scroll;
+    
 }
 .menu-center{
     justify-content: center;
@@ -110,7 +124,7 @@ h3{
 }
 .menu-bottom{
     position: relative;
-    top:17rem;
+    top:15rem;
     right:0.5rem;
     
     
