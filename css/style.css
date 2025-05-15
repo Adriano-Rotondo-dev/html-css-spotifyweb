@@ -17,24 +17,24 @@ img{
     max-width: 100%;
 }
 
-/*#region MAIN*/
 .wrapper{
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
+.top{
+    height:calc(100% - 70px);
+    background-color: teal;
+    display: flex;
+    
+}
+/*#region MAIN*/
 .upgrade-bar{
     height: 50px;
     background:lightslategray;
 }
 .upgrade-btn{
     border: 1px solid white;
-    
-}
-.top{
-    height:calc(100% - 70px);
-    background-color: teal;
-    display: flex;
     
 }
 .content-dx{
