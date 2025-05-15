@@ -49,6 +49,7 @@ img{
     width: 15rem;    
     position:relative;
     top:1.5rem;
+    cursor: pointer;
     
 }
 .content-dx{
