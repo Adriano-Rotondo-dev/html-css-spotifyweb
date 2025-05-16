@@ -18,7 +18,19 @@
 img{
     max-width: 100%;
 }
-
+/*#region H text*/
+h2{
+    color: white;
+    padding-left: 1rem;
+} 
+h5{
+    padding-left: 1rem;
+    color:#72757A;
+    }
+h4{
+    color: white;
+}
+/*#endregion H text*/
 
 .wrapper{
     height: 100vh;
@@ -86,13 +98,12 @@ img{
     display: flex;
     flex-direction: column;
 }
-.row-title h2{
-    color: white;
-    padding-left: 1rem;
-} 
-.row-title h5{
-    padding-left: 1rem;
-    color:#72757A;
+
+.title-subtitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 [class^="col"]{
     padding: 1rem;
@@ -104,6 +115,7 @@ img{
     flex-grow:1;
     background: red;
     border: 1px dashed white;
+    margin-bottom: 1rem;
 }
 
 .col-lg-1{
