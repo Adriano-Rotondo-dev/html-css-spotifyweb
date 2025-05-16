@@ -113,7 +113,6 @@ h4{
     max-height: 200px;
     flex-basis:auto;
     flex-grow:1;
-    background: red;
     border: 1px dashed white;
     margin-bottom: 1rem;
 }
