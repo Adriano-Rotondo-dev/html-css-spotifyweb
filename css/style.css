@@ -75,6 +75,13 @@ img{
   border-bottom: 1px solid #ADFF2F; 
 }
 
+
+/*#region ROW & COLUMNS*/
+
+
+/*#endregion ROW & COLUMNS*/
+
+
 /*#endregion MAIN*/
 
 
@@ -174,5 +181,8 @@ h3{
 .bottom{
     height: 90px;
     background: #282828;
+}
+
+@media screen and (max-width:768px){
     
 }
