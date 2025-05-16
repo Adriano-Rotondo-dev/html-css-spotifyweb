@@ -89,6 +89,7 @@ img{
 }
 .sidebar li a:hover {
     border-left: 1px solid #ADFF2F;
+    padding-left: 5px;
 }
 
 .sidebar * {
@@ -124,11 +125,12 @@ h3{
     padding: 1rem;
   
 }
+.add {
+    max-width: 200px; 
+    margin-left: -0.4rem;
+}
 .fa-square-plus{
     font-size:300%;
-}
-.add {
-    width: 190px;
 }
 .playlist-link{
     margin:1rem 1rem;
