@@ -84,7 +84,16 @@ img{
     flex-direction: column;
     justify-content: space-between;
     padding: 2px;
+    
 }
+.sidebar li a:hover {
+    border-left: 1px solid #ADFF2F;
+}
+
+.sidebar * {
+    margin-left: 5px;
+}
+
 
 .logo{
     max-width: 60%;
@@ -111,21 +120,21 @@ li a{
 }
 h3{
     color: white;
-    margin-left: 15px;
-    margin-bottom: 5px;
+    padding: 1rem;
+  
 }
 .fa-square-plus{
     font-size:300%;
 }
 .add {
-    width: 155px;
+    width: 170px;
 }
 .playlist-link{
-    margin:1rem 1.5rem;
+    margin:1rem 1rem;
 }
 .menu-bottom{
-    position: relative;
-    top:15rem;
+    position:relative;
+    top:13.5rem;
     right:0.5rem;
     
     
