@@ -86,7 +86,10 @@ img{
     display: flex;
     flex-direction: column;
 }
-.row-title 
+.row-title h2{
+    color: white;
+    padding-left: 1rem;
+} 
 .row-title h5{
     padding-left: 1rem;
     color:#72757A;
