@@ -295,13 +295,30 @@ h3{
 }
 
 .btns-monitor button{
+    padding: 5px;   
     color: #F9F9F9;
     background: none;
-    border:none;
+    border:none; 
 }
 
+.monitor-reproduction{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:1rem;
+}
+.grey{
+    width: 400px;
+    height: 5px;
+    background-color: grey;
+    border-radius: 1rem;
+}
 
-
+.grey-fake{
+    height: 2px;
+    width: 100px;
+    background-color: grey;
+}
 @media screen and (max-width:768px){
 
 }
