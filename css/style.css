@@ -93,6 +93,7 @@ h4{
     display: flex;
     flex-wrap: wrap;
     padding: 1rem;
+    gap: 1rem;
 }
 .row-title{
     display: flex;
@@ -107,14 +108,13 @@ h4{
 }
 [class^="col"]{
     padding: 1rem;
-    min-width: 200px;
-    max-width: 200px;
-    min-height: 200px;
-    max-height: 200px;
+    max-width: 250px;
+    max-height: 250px;
     flex-basis:auto;
     flex-grow:1;
     border: 1px dashed white;
     margin-bottom: 1rem;
+    
 }
 
 .col-lg-1{
