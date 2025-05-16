@@ -31,6 +31,8 @@ img{
     display: flex;
     
 }
+
+
 /*#region MAIN*/
 .upgrade-bar{
     height: 100px;
@@ -95,7 +97,6 @@ img{
 .sidebar * {
     margin-left: 5px;
 }
-
 
 .logo{
     max-width: 60%;
