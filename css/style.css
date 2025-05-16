@@ -80,10 +80,16 @@ img{
 .row {
     display: flex;
     flex-wrap: wrap;
+    padding: 1rem;
 }
 .row-title{
     display: flex;
     flex-direction: column;
+}
+.row-title 
+.row-title h5{
+    padding-left: 1rem;
+    color:#72757A;
 }
 [class^="col"]{
     padding: 1rem;
