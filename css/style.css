@@ -263,7 +263,7 @@ h3{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding:1rem 1rem;
+    padding:0 1rem;
 }
 
 .listening-to img {
@@ -288,6 +288,15 @@ h3{
     display: flex;
     gap:10px;
 }
+.reproduction button{
+    color: #F9F9F9;
+    background: none;
+    border:none;
+}
+
+
+
+
 
 @media screen and (max-width:768px){
 
