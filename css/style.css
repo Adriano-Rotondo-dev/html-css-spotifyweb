@@ -134,10 +134,8 @@ h3{
 }
 .menu-bottom{
     position:relative;
-    top:13.5rem;
+    top:12rem;
     right:0.5rem;
-    
-    
 }
 .install{
     display: flex;
@@ -153,11 +151,14 @@ h3{
 .user-profile{
     color: white;
     margin:1rem;
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
 }
 .user-profile img{
     background: grey;
-    height: 1rem;
-    width: 1rem;
+    height: 2rem;
+    width: 2rem;
     border-radius: 50%;
     margin-right: 5px;
     margin-top:5px;
