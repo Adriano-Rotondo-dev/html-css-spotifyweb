@@ -254,8 +254,40 @@ h3{
 .bottom{
     height: 90px;
     background: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
+.listening-to{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:1rem 1rem;
+}
+
+.listening-to img {
+    max-width:8%;
+}
+
+.listening-now{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .author{
+        font-size: smaller;
+    }
+    .name{
+        font-size: x-small;
+        }
+}
+
+.personal{
+    padding:2rem;
+    display: flex;
+    gap:10px;
+}
 
 @media screen and (max-width:768px){
 
