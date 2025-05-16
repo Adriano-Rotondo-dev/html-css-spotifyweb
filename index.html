@@ -165,17 +165,27 @@
                     </div>
             </div>
             
-            <div class="reproduction">   
-                <button class="shuffle"><i class="fa-solid fa-shuffle"></i></button>
-                <button class="backward"><i class="fa-solid fa-backward-step"></i></button>
-                <button class="play"><i class="fa-regular fa-circle-play"></i></button>
-                <button class="forward"><i class="fa-solid fa-forward-step"></i></button>
-                <button class="repeat"><i class="fa-solid fa-rotate-right"></i></button>
-            
-
+            <div class="reproduction"> 
+                <div class="btns-player"> 
+                    <button class="shuffle"><i class="fa-solid fa-shuffle"></i></button>
+                    <button class="backward"><i class="fa-solid fa-backward-step"></i></button>
+                    <button class="play"><i class="fa-regular fa-circle-play"></i></button>
+                    <button class="forward"><i class="fa-solid fa-forward-step"></i></button>
+                    <button class="repeat"><i class="fa-solid fa-rotate-right"></i></button>
+                </div> 
+                <div class="slidecontainer fake"> <!-- temporaneo -->
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                </div>
             </div>
-            <div class="monitor-reproduction">   
-
+            <div class="monitor-reproduction">  
+                <div class="btns-monitor">
+                    <button><i class="fa-solid fa-list"></i></button>
+                    <button><i class="fa-solid fa-desktop"></i></button>
+                    <button><i class="fa-solid fa-volume-high"></i></button>
+                </div> 
+                <div class="slidecontainer fake monitor"> <!-- temporaneo -->
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                </div>
             </div>
         </div>
     </div>
