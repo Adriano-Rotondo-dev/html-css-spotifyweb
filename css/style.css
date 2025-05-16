@@ -81,7 +81,7 @@ h4{
 .menu-center{
     justify-content: center;
     list-style: none;
-    margin-top: 1rem;   
+    margin-top: 1rem;
 }
 .menu-center li a:hover {
   border-bottom: 1px solid #ADFF2F; 
