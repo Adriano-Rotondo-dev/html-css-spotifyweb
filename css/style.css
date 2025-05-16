@@ -359,5 +359,51 @@ h3{
  
 
 @media screen and (max-width:768px){
+    .wrapper{
+        max-width: 765px;
+    }
+    
+    .menu-center{
+        font-size:smaller; 
+    }
+    .discover{
+        position: absolute;
+        top:10rem;
+    }
+    
+    .col-md-3{
+        width: calc(100/ 12 * 3);
+        margin:10px 0;
+    }
+    [class^="col"]{
+        padding: 1rem;
+        max-width: 110px;
+        max-height: 110px;
+        flex-basis:auto;
+        flex-grow:1;
+        border: 1px dashed white;
+        margin-bottom: 1rem;    
+    }
+    .row-title{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0.5rem;
+    }
+    .row-title.high{
+        padding-top:4rem;
+     }
 
+    .title-subtitle{
+        padding:0.5rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size:small;
+        text-align: center;
+    }
+    h5{
+        margin-right:5px;
+    }
+    
 }
