@@ -78,9 +78,10 @@ img{
 
 /*#region SIDEBAR*/
 .sidebar{
-    height: 100vh;
+    height: 90vh;
     width: 230px;
     background: black;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 2px;
@@ -127,15 +128,14 @@ h3{
     font-size:300%;
 }
 .add {
-    width: 170px;
+    width: 190px;
 }
 .playlist-link{
     margin:1rem 1rem;
 }
-.menu-bottom{
-    position:relative;
-    top:12rem;
-    right:0.5rem;
+.menu-bottom{  
+    position: relative;
+    right:0.5rem; 
 }
 .install{
     display: flex;
