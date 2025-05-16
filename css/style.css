@@ -81,7 +81,10 @@ img{
     display: flex;
     flex-wrap: wrap;
 }
-
+.row-title{
+    display: flex;
+    flex-direction: column;
+}
 [class^="col"]{
     padding: 1rem;
     min-width: 200px;
