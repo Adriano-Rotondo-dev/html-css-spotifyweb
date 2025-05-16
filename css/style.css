@@ -87,7 +87,6 @@ h4{
   border-bottom: 1px solid #ADFF2F; 
 }
 
-
 /*#region ROW & COLUMNS*/
 .row {
     display: flex;
@@ -98,9 +97,11 @@ h4{
 .row-title{
     display: flex;
     flex-direction: column;
+    padding-top: 0.5rem;
 }
 
 .title-subtitle{
+    padding:0.5rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -156,9 +157,7 @@ h4{
 
 /*#endregion ROW & COLUMNS*/
 
-
 /*#endregion MAIN*/
-
 
 /*#region SIDEBAR*/
 .sidebar{
@@ -250,13 +249,13 @@ h3{
 }
 /*#endregion SIDEBAR*/
 
-
 /**BOTTOM**/ 
 
 .bottom{
     height: 90px;
     background: #282828;
 }
+
 
 @media screen and (max-width:768px){
 
