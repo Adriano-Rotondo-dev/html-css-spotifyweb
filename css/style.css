@@ -332,12 +332,21 @@ h3{
     background-color: grey;
     border-radius: 1rem;
 }
+.white{
 
+}
 .grey-fake{
     height: 2px;
     width: 100px;
     background-color: grey;
 }
+
+.white-fake{
+    
+}
+
+
+
 @media screen and (max-width:768px){
 
 }
