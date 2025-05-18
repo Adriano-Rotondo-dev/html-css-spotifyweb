@@ -409,4 +409,8 @@ h3{
     .sidebar *:not(.fa-square-plus) {
     font-size: x-small;
     }
+    .upgrade-btn{
+    border: 1px solid white;
+    
+    }
 }
