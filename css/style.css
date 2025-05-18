@@ -296,6 +296,8 @@ h3{
   justify-content: center;
   gap: 0.5rem;
   padding-bottom: 1rem;
+  position: relative;
+  right:5rem;
 }
 
 .btns-player button{
@@ -424,11 +426,13 @@ h3{
     }
     .btns-monitor{
         display: flex;
-        padding-left: 50px;
     }
 }
 
 /***MEDIA MOBILE****/
 @media screen and (max-width:576px){
+    .wrapper{
+        max-width: 570px;
+    }
 
 }
