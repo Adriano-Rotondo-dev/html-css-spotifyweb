@@ -319,6 +319,7 @@ h3{
     color: #F9F9F9;
     background: none;
     border:none; 
+    cursor: pointer;
 }
 
 .monitor-reproduction{
@@ -434,5 +435,34 @@ h3{
     .wrapper{
         max-width: 570px;
     }
+    a > img{
+    max-width:15%;
+
+    }
+    .grey{
+        width: 100px;
+    }
+    .white{
+        width:50px;
+    }
+    .monitor-reproduction{
+        display: flex;
+    }
+    .fa-list, .fa-desktop, .fa-volume-high{
+        font-size: x-small;
+    }
+    
+    .grey-fake{
+        height: 2px;
+        width: 50px;
+    
+    }
+    .white-fake{
+        width:25px;
+        height:2px;
+        position: relative;
+        bottom:0.1rem;
+    }
+
 
 }
