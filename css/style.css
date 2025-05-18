@@ -427,3 +427,8 @@ h3{
         padding-left: 50px;
     }
 }
+
+/***MEDIA MOBILE****/
+@media screen and (max-width:576px){
+
+}
