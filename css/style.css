@@ -358,7 +358,7 @@ h3{
 }
  
 /***MEDIA TABLET***/
-@media screen and (max-width:){
+@media screen and (max-width:768px){
     .wrapper{
         max-width: 765px;
     }
