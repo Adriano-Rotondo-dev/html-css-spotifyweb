@@ -407,6 +407,6 @@ h3{
     }
     
     .sidebar *:not(.fa-square-plus) {
-    font-size: small;
+    font-size: x-small;
     }
 }
