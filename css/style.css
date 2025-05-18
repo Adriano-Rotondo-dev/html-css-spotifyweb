@@ -357,8 +357,8 @@ h3{
     bottom:0.1rem;
 }
  
-
-@media screen and (max-width:768px){
+/***MEDIA TABLET***/
+@media screen and (max-width:){
     .wrapper{
         max-width: 765px;
     }
@@ -405,12 +405,25 @@ h3{
     h5{
         margin-right:5px;
     }
-    
     .sidebar *:not(.fa-square-plus) {
-    font-size: x-small;
+        font-size: x-small;
     }
     .upgrade-btn{
-    border: 1px solid white;
-    
+        border: 1px solid white;
+        
+    }
+    .bottom{
+        display: flex;
+        justify-content: space-around;
+    }
+    .grey{
+        width: 200px;
+    }
+    .white{
+        width:100px;
+    }
+    .btns-monitor{
+        display: flex;
+        padding-left: 50px;
     }
 }
