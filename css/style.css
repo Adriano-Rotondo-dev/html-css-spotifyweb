@@ -435,8 +435,17 @@ h3{
     .wrapper{
         max-width: 570px;
     }
+     .upgrade-btn{
+        border: 1px solid white;
+        font-size:x-small;
+        border: 1px solid white;
+        height: 1.8rem;
+        width: 9rem;    
+        top:2rem; 
+     }
+
     a > img{
-    max-width:15%;
+        max-width:15%;
 
     }
     .logo{
@@ -469,7 +478,7 @@ h3{
         margin: 0 0.5rem;
     }
     .btns-player .play {
-    font-size:x-large;
+        font-size:x-large;
     }
 
     .grey{
