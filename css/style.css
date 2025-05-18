@@ -406,4 +406,7 @@ h3{
         margin-right:5px;
     }
     
+    .sidebar *:not(.fa-square-plus) {
+    font-size: small;
+    }
 }
