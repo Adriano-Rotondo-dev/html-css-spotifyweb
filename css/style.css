@@ -439,11 +439,30 @@ h3{
     max-width:15%;
 
     }
+    .bottom{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .reproduction {
+        gap: 1rem;
+        right:1rem;
+    }
+
+    .btns-player button{
+        padding:0.1rem;
+        font-size:medium;
+        margin: 0 0.5rem;
+    }
+    .btns-player .play {
+    font-size:x-large;
+    }
+
     .grey{
-        width: 100px;
+        width: 200px;
     }
     .white{
-        width:50px;
+        width:100px;
     }
     .monitor-reproduction{
         display: flex;
@@ -462,6 +481,9 @@ h3{
         height:2px;
         position: relative;
         bottom:0.1rem;
+    }
+    .slider-reproduction{
+        margin-bottom: -30px;
     }
 
 
