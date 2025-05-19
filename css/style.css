@@ -87,13 +87,13 @@ h4{
     margin-top: 1rem;
 }
 .evidence{
-    border-bottom: 1px solid #ADFF2F;
-    
+    position: relative;
+     border-bottom: 1px solid #ADFF2F;
 }
+
 .menu-center li a:hover { 
   color: white;
 }
-
 /*#region ROW & COLUMNS*/
 .row {
     display: flex;
@@ -623,4 +623,8 @@ h3{
     }
 
 
+}
+
+/***MEDIA XS****/
+@media screen and (max-width:480px){
 }
