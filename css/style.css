@@ -114,9 +114,21 @@ h4{
     align-items: center;
     justify-content: center;
 }
-.figure img{
-    opacity: 20%;
+.figure{
+    opacity: 0.9;
 }
+.play-hover{
+    color: white;
+    font-size: 500%;
+    position: absolute;
+    top:17rem;
+    left:21rem;
+    display: none;
+}
+.figure:hover .play-hover{
+    display: inline;
+}
+
 [class^="col"]{
     padding: 1rem;
     max-width: 250px;
