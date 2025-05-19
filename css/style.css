@@ -6,9 +6,9 @@
     
 }
 /*UTILITIES*/
-.debug{
+/* .debug{
      border: 1px dashed white;
-}
+} */
 *{
     font-family: "Plus Jakarta Sans", sans-serif;
 }
@@ -142,7 +142,6 @@ position: relative;
     max-height: 250px;
     flex-basis:auto;
     flex-grow:1;
-    border: 1px dashed white;
     margin-bottom: 1rem;
     
 }
@@ -190,7 +189,7 @@ position: relative;
 
 /*#region SIDEBAR*/
 .sidebar{
-    height: 90vh;
+    height: 91vh;
     width: 230px;
     background: black;
     display: flex;
@@ -466,7 +465,6 @@ h3{
         max-height: 110px;
         flex-basis:auto;
         flex-grow:1;
-        border: 1px dashed white;
         margin-bottom: 1rem;    
     }
     .row-title{
