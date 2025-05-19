@@ -3,7 +3,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    border:1px dashed red;
+    
 }
 /*UTILITIES*/
 .debug{
@@ -684,69 +684,70 @@ h3{
     .row img{
         max-width: 112%;
     }
-    
+    .personal{
+        padding:5px;
+        display: block;
+    }
+    .listening-to{
+        padding: 0 2px;
+    }
+    .btns-player{
+        padding:1px;
+        display: flex;
+    }
+.btns-monitor{
+    padding:1px;
+}
+.reproduction{
+    padding-bottom: -1px;
+    padding-left: 10px;
+}
+.slider-reproduction{
+    margin-top:1px;
+}
     .grey{
-    width: 80px;
-    height: 5px;
-    background-color: grey;
-    border-radius: 1rem;
+        width: 150px;
+      
+    }
+    .white{
+        width:80px;
+        }
+
+        .circle-play{
+    height: 0.7rem;
+    width: 0.7rem;
+    top:49px;
+    left:5.9rem;
 }
-.white{
-    width:40px;
-    height:5px;
-    background-color: white;
-    border-radius: 1rem;
-    position: relative;
-    bottom:0.3rem;
     
-}
-.circle-play{
-    height: 1rem;
-    width: 1rem;
-    background-color: white;
-    border-radius: 16px;
-    position: absolute;
-    bottom:1rem;
-    left:12rem;
-    display: none;
-}
+    .grey-fake{
+        height: 4px;
+        width: 40px;
+    }
 
-.grey-fake{
-    height: 2px;
-    width: 20px;
-    background-color: grey;
-}
+    .white-fake{
+        width:20px;
+        height:4px;
+        position: relative;
+        bottom:3.9px;
+    }
+    .circle-play-sm{
+        height: 6px;
+        width: 6px;       
+        bottom:2.8rem;
+        right:2.5rem;
+    }
+    .white:hover, .white-fake:hover{   
+        background-color: greenyellow; 
+    }
 
-.white-fake{
-    width:10px;
-    height:2px;
-    background-color: white;
-    border-radius: 1rem;
-    position: relative;
-    bottom:0.1rem;
-}
-.circle-play-sm{
-    height: 10px;
-    width: 10px;
-    background-color: white;
-    border-radius: 16px;
-    position: absolute;
-    bottom:2.6rem;
-    right:3.7rem;
-    display: none;
-}
-.white:hover, .white-fake:hover{   
-    background-color: greenyellow; 
-}
-
-
-.slider:hover .circle-play{
-    display: inline;
-    z-index: 1;
-}
-.fake-monitor:hover .circle-play-sm{
-    display: inline;
-    z-index:1;
-}
+    .slider:hover .circle-play{
+        display: inline;
+        z-index: 1;
+    }
+    .fake-monitor:hover .circle-play-sm{
+        display: inline;
+        z-index:1;
+    }
 
 }
