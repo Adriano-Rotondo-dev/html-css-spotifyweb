@@ -318,7 +318,14 @@ h3{
 .personal{
     padding:2rem;
     display: flex;
-    gap:10px;
+    gap:15px;
+}
+.personal:hover .fav{
+    color:white;
+}
+
+.personal:hover .folder{
+    color:white;
 }
 
 .reproduction {
@@ -562,6 +569,11 @@ h3{
         text-decoration: underline;
 
     }
+
+    .listening-to img{
+        max-width: 15%;
+    }
+
     .reproduction {
         gap: 1rem;
         right:1rem;
