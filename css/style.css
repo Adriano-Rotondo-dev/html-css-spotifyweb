@@ -401,11 +401,15 @@ h3{
     }
     
     .menu-center{
-        font-size:smaller; 
+        font-size:x-small;
+        gap:1rem;
+        justify-content: space-around; 
+        width: 600px;
     }
     .discover{
-        position: absolute;
-        top:10rem;
+        position: relative;
+        top:2.5rem;
+        right: 19rem;
     }
     
     .col-md-3{
@@ -458,6 +462,9 @@ h3{
     }
     .white{
         width:100px;
+    }
+    .circle-play{
+        left:5.5rem;
     }
     .btns-monitor{
         display: flex;
@@ -531,6 +538,9 @@ h3{
     .white{
         width:100px;
     }
+    .circle-play{
+        top:2.7rem;
+    }
     .monitor-reproduction{
         display: flex;
     }
@@ -548,6 +558,9 @@ h3{
         height:2px;
         position: relative;
         bottom:0.1rem;
+    }
+    .circle-play-sm{
+        right:2.3rem;
     }
     .slider-reproduction{
         margin-bottom: -30px;
