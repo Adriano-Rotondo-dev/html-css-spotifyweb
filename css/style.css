@@ -86,8 +86,10 @@ h4{
     list-style: none;
     margin-top: 1rem;
 }
-.menu-center li a:hover {
-  border-bottom: 1px solid #ADFF2F; 
+.discover{
+    border-bottom: 1px solid #ADFF2F;
+}
+.menu-center li a:hover { 
   color: white;
 }
 
@@ -528,7 +530,11 @@ h3{
         display: flex;
         justify-content: space-around;
     }
-    
+    h5 .name:hover{
+        color: white;
+        text-decoration: underline;
+
+    }
     .reproduction {
         gap: 1rem;
         right:1rem;
