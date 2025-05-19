@@ -114,17 +114,21 @@ h4{
     align-items: center;
     justify-content: center;
 }
-
 figure:hover img {
     opacity: 0.5;
     filter: blur(1px);
 }
-.play-hover{
+.figure{
+position: relative;
+}
+
+.play-hover {
     color: white;
-    font-size: 500%;
-    position: ;
-    top:17rem;
-    left:21rem;
+    font-size: 4rem; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: none;
 }
 .figure:hover .play-hover{
@@ -464,7 +468,10 @@ h3{
     .row-title.high{
         padding-top:4rem;
      }
-
+    .play-hover {
+    font-size: 2rem; 
+    
+    }
     .title-subtitle{
         padding:0.5rem 0;
         display: flex;
@@ -543,7 +550,9 @@ h3{
         max-width: 140px;
         margin-bottom: 3rem;    
     }
-
+    .play-hover{
+        font-size: 3rem;
+    }
     .bottom{
         display: flex;
         justify-content: space-around;
