@@ -196,6 +196,7 @@ position: relative;
     flex-direction: column;
     justify-content: space-between;
     padding: 2px;
+    overflow: hidden;
     
 }
 .sidebar li a:hover {
@@ -627,4 +628,28 @@ h3{
 
 /***MEDIA XS****/
 @media screen and (max-width:480px){
+    .wrapper{
+        max-width: 475px;
+    }
+    .sidebar{
+        width: 80px;
+    }
+    
+    .content-dx{
+        width: calc(100% - 80px);
+        overflow: hidden;
+    }
+    .upgrade-bar{
+        height: 70px;
+    }
+    .menu-center{
+       
+        flex-wrap: wrap;
+        gap:10px;
+        justify-content:space-around;
+    }
+    .discover{
+        position:static;
+    }
+
 }
