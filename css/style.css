@@ -66,6 +66,9 @@ h4{
     cursor: pointer;
     
 }
+.upgrade-btn:hover{
+    transform: scale(110%);
+}
 .content-dx{
     width: calc(100% - 230px);
     background-color: aqua; 
@@ -319,6 +322,9 @@ h3{
 .btns-player .play {
   font-size: x-large;
 }
+.play:hover{
+    transform: scale(130%);
+}
 
 .btns-monitor button{
     padding: 5px;   
@@ -479,7 +485,7 @@ h3{
 /***MEDIA MOBILE****/
 @media screen and (max-width:576px){
     .wrapper{
-        max-width: 570px;
+        max-width: 574px;
     }
      .upgrade-btn{
         border: 1px solid white;
