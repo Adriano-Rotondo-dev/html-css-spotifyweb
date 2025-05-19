@@ -628,28 +628,52 @@ h3{
 
 /***MEDIA XS****/
 @media screen and (max-width:480px){
+
     .wrapper{
         max-width: 475px;
     }
     .sidebar{
         width: 80px;
+        overflow: hidden;
+    }
+    .sidebar img{
+        max-width:50%;
+    }
+    .logo{
+        min-width:70px;
+        position: relative;
+        right: 1.3rem;
+        padding-bottom: 1rem;
+    }
+    
+    .install{
+        border:transparent
+        
+    }
+    .hidden{
+        display: none;
     }
     
     .content-dx{
         width: calc(100% - 80px);
+        height: 103%;
         overflow: hidden;
+        overflow-y: scroll;
     }
     .upgrade-bar{
         height: 70px;
     }
+    .upgrade-btn{
+        top:1.2rem;
+    }
     .menu-center{
-       
         flex-wrap: wrap;
         gap:10px;
         justify-content:space-around;
     }
-    .discover{
-        position:static;
-    }
+
+
+    
+    
 
 }
