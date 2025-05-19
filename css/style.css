@@ -86,8 +86,9 @@ h4{
     list-style: none;
     margin-top: 1rem;
 }
-.discover{
+.evidence{
     border-bottom: 1px solid #ADFF2F;
+    
 }
 .menu-center li a:hover { 
   color: white;
@@ -112,6 +113,9 @@ h4{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.figure img{
+    opacity: 20%;
 }
 [class^="col"]{
     padding: 1rem;
