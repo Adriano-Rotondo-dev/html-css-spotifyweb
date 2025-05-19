@@ -674,11 +674,10 @@ h3{
         justify-content:space-around;
     }
     .user-profile img{    
-        height: 1.6rem;
-        width: 1.6rem;
-        margin-top:2px;
+        height:50%;
+        margin-top:0;
         position: relative;
-        left: 0.3rem;
+        left: 5px;
     }
 
     .row img{
@@ -689,7 +688,10 @@ h3{
         display: block;
     }
     .listening-to{
-        padding: 0 2px;
+        padding: 0 5px;
+    }
+    .listening-to img{
+        max-width: 30%;
     }
     .btns-player{
         padding:1px;
