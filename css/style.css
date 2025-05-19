@@ -85,6 +85,7 @@ h4{
 }
 .menu-center li a:hover {
   border-bottom: 1px solid #ADFF2F; 
+  color: white;
 }
 
 /*#region ROW & COLUMNS*/
@@ -173,6 +174,7 @@ h4{
 .sidebar li a:hover {
     border-left: 1px solid #ADFF2F;
     padding-left: 5px;
+    color: white;
 }
 
 .sidebar * {
@@ -220,6 +222,9 @@ h3{
 .menu-bottom{  
     position: relative;
     right:0.5rem; 
+}
+.menu-bottom a:hover{
+    color: white;
 }
 .install{
     display: flex;
